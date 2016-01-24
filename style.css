@@ -1,0 +1,163 @@
+
+
+body{
+    background-color: #F73E46;
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+    height: 550px;
+    text-align: right;
+    background-image: url("images/natal.jpg");
+    color: #E7B534;
+    margin-bottom: 2.2%;
+    margin-top: 2.2%;
+
+}
+
+.jumbotron>div>h1{
+    font-family: 'Sigmar One', cursive;
+}
+
+.jumbotron>div>p{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.destaque{
+    padding-top: 125px;
+}
+
+/*Menu*/
+
+.navbar{
+    background-color: #2C1F2C;
+    color: #ffffff;
+    border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.navbar-default .navbar-brand{
+    color: #9CE969;
+    font-family: 'Sigmar One', cursive;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #2C1F2C;
+    color: #9CE969;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    background-color: #2C1F2C;
+    color: #E7B534;
+}
+
+
+
+/*Rodapé*/
+
+footer{
+    background-color: #2C1F2C;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/*Motivos para viajar*/
+
+ul{
+    list-style-type: none;
+}
+
+#box-motivos{
+    background-color: #A9D8CF;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+#box-motivos>h1{
+    font-size: 4em;
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    color: #2C1F2C;
+}
+
+#box-motivos>p, #box-motivos>ul{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    padding: 10px;
+    color: #2C1F2C;
+}
+
+#box-motivos>ul>li{
+    padding: 10px;
+}
+
+#box-motivos>ul>li>span{
+    padding-right: 15px;
+    color: #f0ad4e;
+}
+
+#box-motivos>a{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2.5em;
+    margin-left: 73%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Destinos*/
+
+.btn-destinos{
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+}
+
+/*Cidades*/
+
+.btn-planos{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.thumbnail>h1{
+    color: #eea236;
+    font-size: 3em;
+    padding: 5px;
+    text-align: center;
+}
+
+.thumbnail>h1:hover{
+    color: #9CE969;
+}
+
+.thumbnail{
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.detalhes{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.titulo-destinos{
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    font-size: 6em;
+    color: #A9D8CF;
+}
